@@ -5,7 +5,10 @@ uint32_t currentTime = 0;
 
 void loop(void)
 {
-    static uint32_t loopTime;
+  static uint32_t loopTime;
 
-    currentTime = micros();
+  currentTime = micros();
+
+  //if (masterConfig.looptime == 0 || (int32_t)(currentTime - loopTime) >= 0) {
+  //}
 }

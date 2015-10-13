@@ -35,6 +35,8 @@
 uint32_t testme = 0;
 void init(void)
 {
+  ensureEEPROMContainsValidData();
+
   systemInit();
 }
 
