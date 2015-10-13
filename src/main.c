@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include "diag/Trace.h"
 
+#include "config.h"
 #include "system.h"
 #include "mw.h"
 

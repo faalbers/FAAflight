@@ -1,9 +1,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include "config.h"
-#include "config_master.h"
 
-master_t masterConfig;                 // master config struct with data independent from profiles
 
 // Default settings
 static void resetConf(void)
